@@ -1,0 +1,11 @@
+Setup Tomcat di Intellij IDEA
+- siapkan folder worktools (agar terstandar lokasinya)
+- copy apache tomcat 7.0.96
+- di Intellij buka File > Settings > Tools > External Tools
+- Berikan nama Tomcat (agar terstandar)
+- Program : C:\WORKTOOLS\apache-tomcat-7.0.96\bin\catalina.bat
+- Argument : jpda run
+- Working directory : C:\WORKTOOLS\apache-tomcat-7.0.96\bin
+- OK
+
+CARA DEPLOY OTOMATIS KE Tomcat DI Intellij
